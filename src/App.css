@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-#root {
+section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,11 +37,12 @@ article button {
 form {
     display: flex;
     flex-direction: column;
-    margin: 24px 0;
+    margin: 24px auto;
     width: 40vw;
 }
 
 form label {
+    display: inline-block;
     padding: 8px 0;
     text-align: left;
 }
@@ -60,8 +61,8 @@ input[type="radio"] {
 }
 
 textarea {
-    display: block;
-    margin-top: 4px;
+    margin: 4px;
+    max-width: 40vw;
 }
 
 input[type="checkbox"] {

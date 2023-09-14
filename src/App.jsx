@@ -88,7 +88,7 @@ function App() {
                     Reset
                 </button>
             </section>
-
+            <section>
             <form onSubmit={handleSubmit}>
 
                 <label>
@@ -186,6 +186,7 @@ function App() {
                     Verzend
                 </button>
             </form>
+            </section>
         </>
     );
 }
